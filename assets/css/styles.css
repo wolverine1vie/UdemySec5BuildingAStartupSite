@@ -106,13 +106,13 @@ header h2 {
 	font-family: "Quicksand", sans-serif;
 }
 
-header nav {
-	display: flex;
-	margin-right: -15px;
+header nav ul {
+    display: flex;
+    margin-right: -15px;
 }
 
 header nav li {
-	margin: 0 15px;
+    margin: 0 15px;
 }
 
 @media (max-width: 800px) {
