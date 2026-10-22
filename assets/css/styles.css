@@ -412,6 +412,11 @@ footer p {
 .tours-page .packages strong {
     color: #3f51b5;
 }
+section h4 {
+    color: #37474f;
+    font-size: 22px;
+    margin: 15px 0;
+}
 
 /* Mobile screens */
 
