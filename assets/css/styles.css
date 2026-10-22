@@ -344,15 +344,34 @@ footer p {
 
 /* Header: match the existing website's blue-grey colour */
 
+/* ==========================
+   TOURS PAGE HEADER
+   ========================== */
+
 .tours-page header {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 10;
+
     width: 100%;
     padding: 25px 60px;
-    background-color: #607d8b;
+
+    background: transparent;
     color: #fff;
+
     opacity: 1;
     animation: none;
+}
+
+.tours-page header h2 a,
+.tours-page header nav a {
+    color: #fff;
+}
+
+.tours-page header nav {
+    position: relative;
+    z-index: 11;
 }
 
 .tours-page header a {
