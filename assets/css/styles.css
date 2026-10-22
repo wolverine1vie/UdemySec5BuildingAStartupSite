@@ -338,3 +338,145 @@ footer p {
 		margin: 0 8px;
 	}
 } 
+/* ==========================
+   TOURS PAGE
+   ========================== */
+
+/* Header: match the existing website's blue-grey colour */
+
+.tours-page header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    padding: 25px 60px;
+    background-color: #607d8b;
+    color: #fff;
+    opacity: 1;
+    animation: none;
+}
+
+.tours-page header a {
+    color: #fff;
+}
+
+.tours-page header nav {
+    position: relative;
+    z-index: 11;
+}
+
+.tours-page header nav a {
+    transition: opacity 0.3s ease;
+}
+
+/* Main tours section */
+
+.tours-page .packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 25px;
+    background-color: #f5f5f5;
+}
+
+/* Main heading */
+
+.tours-page .packages h1 {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 20px;
+    color: #37474f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+/* Destination headings */
+
+.tours-page .packages h4 {
+    width: 100%;
+    max-width: 850px;
+    margin: 35px auto 20px;
+    padding: 20px 25px;
+    border-left: 5px solid #3f51b5;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #37474f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+/* Destination descriptions */
+
+.tours-page .packages p {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto 20px;
+    padding: 0 25px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: left;
+}
+
+/* Highlight important labels */
+
+.tours-page .packages p strong {
+    color: #3f51b5;
+}
+
+/* Add breathing room after each destination */
+
+.tours-page .packages p:last-child {
+    margin-bottom: 35px;
+}
+
+/* Tablet and mobile layout */
+
+@media (max-width: 800px) {
+
+    .tours-page header {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .tours-page header h2 {
+        margin-bottom: 15px;
+    }
+
+    .tours-page .packages {
+        padding: 45px 15px;
+    }
+
+    .tours-page .packages h1 {
+        font-size: 32px;
+    }
+
+    .tours-page .packages h4 {
+        margin-top: 25px;
+        padding: 16px;
+        font-size: 21px;
+    }
+
+    .tours-page .packages p {
+        padding: 0 10px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .tours-page header nav li {
+        margin: 0 10px;
+    }
+
+    .tours-page .packages h1 {
+        font-size: 28px;
+    }
+
+    .tours-page .packages h4 {
+        font-size: 19px;
+    }
+}
+
