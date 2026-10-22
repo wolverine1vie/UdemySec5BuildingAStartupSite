@@ -441,3 +441,31 @@ footer p {
         font-size: 20px;
     }
 }
+/* Tour images */
+
+.tour-images {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 850px;
+    margin: 35px auto 0;
+}
+
+.tour-images img {
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Mobile screens */
+
+@media (max-width: 600px) {
+    .tour-images {
+        gap: 10px;
+    }
+
+    .tour-images img {
+        height: 160px;
+    }
+}
